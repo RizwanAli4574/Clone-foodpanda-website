@@ -1,0 +1,1061 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* nav bar */
+
+.nav {
+    margin-top: 5px;
+
+}
+
+a.foo {
+    color: #e21b70;
+    font-weight: bold;
+}
+
+a.foo:hover {
+    color: #e21b70;
+    cursor: pointer;
+    font-size: large;
+}
+
+.btn-manual {
+    margin-left: 49rem;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 2px 10px;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.btn1 {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 2px 10px;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.btn-color {
+    background-color: #e21b70;
+    color: white;
+    border: 1px solid #e21b70;
+}
+
+.cart {
+    font-size: x-large;
+    margin-left: 15px;
+
+
+}
+
+/* slidebar */
+
+.ctn {
+    background-color: rgb(245, 245, 245);
+    margin-top: 5px;
+    height: 35rem;
+}
+
+.heading {
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+}
+
+.btn-input {
+    border: 1px solid rgb(218, 217, 217);
+    width: 85%;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.btn-input input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(218, 217, 217);
+}
+
+.btn-input button {
+    margin-left: 5px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: #e21b70;
+    color: white;
+    border: 1px solid #e21b70;
+    font-weight: bold;
+
+}
+
+.img-tag {
+    height: 35rem;
+
+}
+
+.img-tag img {
+    height: 100%;
+    width: 100%;
+    margin-left: 0.7rem;
+    object-fit: cover;
+    object-position: left center;
+}
+
+/* next section */
+.sec-2,
+.sec-2-5 {
+    margin-top: 50px;
+}
+
+.sec-2 h2,
+.sec-2-5 h2 {
+    font-weight: bolder;
+    margin-left: 35px;
+    margin-bottom: 25px;
+}
+
+.sec-2-img {
+    background-image: url('https://images.deliveryhero.io/image/foodpanda/home-vendor-pk.jpg?width=1200&height=768');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35rem;
+    position: relative;
+
+}
+
+.sec-p-row {
+    position: absolute;
+    top: 70rem;
+}
+
+.sec-p {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: white;
+    box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+    height: 20rem;
+    line-height: 32px;
+    margin-left: 5rem;
+
+}
+
+.sec-p h4 {
+    margin-top: 8px;
+}
+
+.sec-p button {
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: #e21b70;
+    color: white;
+    border: 1px solid #e21b70;
+    font-weight: bold;
+
+}
+
+/* section 3 */
+
+.sec-3 h2 {
+    font-weight: bolder;
+    margin-left: 35px;
+    margin-top: 12rem;
+    margin-bottom: 25px;
+}
+
+/* section 4 */
+
+.city-img-1 {
+    background-image: url(https://images.deliveryhero.io/image/foodpanda/city-tile-pk/Islamabad.jpg?width=720);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20rem;
+    border-radius: 15px;
+    margin-left: 8rem;
+    position: relative;
+}
+
+.city-name-1 {
+    background-color: white;
+    position: absolute;
+    top: 16.5rem;
+    margin-left: 10px;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.city-img-2 {
+    background-image: url(https://images.deliveryhero.io/image/foodpanda/city-tile-pk/Karachi.jpg?width=720);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20rem;
+    border-radius: 15px;
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    position: relative;
+}
+
+.city-name-2 {
+    background-color: white;
+    position: absolute;
+    top: 16.5rem;
+    margin-left: 10px;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.city-img-3 {
+    background-image: url(https://images.deliveryhero.io/image/foodpanda/city-tile-pk/Lahore.jpg?width=720);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20rem;
+    border-radius: 15px;
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    position: relative;
+}
+
+.city-name-3 {
+    background-color: white;
+    position: absolute;
+    top: 16.5rem;
+    margin-left: 10px;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.city-img-4 {
+    background-image: url(https://images.deliveryhero.io/image/foodpanda/city-tile-pk/Faisalabad.jpg?width=720);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20rem;
+    border-radius: 15px;
+    margin-left: 8rem;
+    position: relative;
+}
+
+.city-name-4 {
+    background-color: white;
+    position: absolute;
+    top: 16.5rem;
+    margin-left: 10px;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.city-img-5 {
+    background-image: url(https://images.deliveryhero.io/image/foodpanda/city-tile-pk/Rawalpindi.jpg?width=720);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20rem;
+    border-radius: 15px;
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    position: relative;
+}
+
+.city-name-5 {
+    background-color: white;
+    position: absolute;
+    top: 16.5rem;
+    margin-left: 10px;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.city-img-6 {
+    background-image: url(https://images.deliveryhero.io/image/fd-pk/city-tile/city-tile-Abottabad.jpg?width=720);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20rem;
+    border-radius: 15px;
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    position: relative;
+}
+
+.city-name-6 {
+    background-color: white;
+    position: absolute;
+    top: 16.5rem;
+    margin-left: 10px;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.city-img-7 {
+    background-image: url(https://images.deliveryhero.io/image/fd-pk/city-tile/city-tile-Bahawalpur.jpg?width=720);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20rem;
+    border-radius: 15px;
+    margin-left: 8rem;
+    position: relative;
+}
+
+.city-name-7 {
+    background-color: white;
+    position: absolute;
+    top: 16.5rem;
+    margin-left: 10px;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.city-img-8 {
+    background-image: url(https://images.deliveryhero.io/image/fd-pk/city-tile/city-tile-DeraGhaziKhan.jpg?width=720);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20rem;
+    border-radius: 15px;
+    margin-left: 1.5rem;
+
+    position: relative;
+}
+
+.city-name-8 {
+    background-color: white;
+    position: absolute;
+    top: 16.5rem;
+    margin-left: 10px;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.city-img-9 {
+    background-image: url(https://images.deliveryhero.io/image/fd-pk/city-tile/city-tile-Gujranwala.jpg?width=720);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20rem;
+    border-radius: 15px;
+    margin-left: 1.5rem;
+
+    position: relative;
+}
+
+.city-name-9 {
+    background-color: white;
+    position: absolute;
+    top: 16.5rem;
+    margin-left: 10px;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
+.city-img-10 {
+    background-image: url(https://images.deliveryhero.io/image/fd-pk/city-tile/city-tile-Gujrat.jpg.jpg?width=720);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20rem;
+    border-radius: 15px;
+    margin-left: 8rem;
+    position: relative;
+}
+
+.city-name-10 {
+    background-color: white;
+    position: absolute;
+    top: 16.5rem;
+    margin-left: 10px;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.city-img-11 {
+    background-image: url(https://images.deliveryhero.io/image/foodpanda/city-tile-pk/Hyderabad.jpg?width=720);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20rem;
+    border-radius: 15px;
+    margin-left: 1.5rem;
+
+    position: relative;
+}
+
+.city-name-11 {
+    background-color: white;
+    position: absolute;
+    top: 16.5rem;
+    margin-left: 10px;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.city-img-12 {
+    background-image: url(https://images.deliveryhero.io/image/fd-pk/city-tile/city-tile-Jhelum.jpg?width=720);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20rem;
+    border-radius: 15px;
+    margin-left: 1.5rem;
+
+    position: relative;
+}
+
+.city-name-12 {
+    background-color: white;
+    position: absolute;
+    top: 16.5rem;
+    margin-left: 10px;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.city-img-13 {
+    background-image: url(https://images.deliveryhero.io/image/fd-pk/city-tile/city-tile-Kamoke.jpg?width=720);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20rem;
+    border-radius: 15px;
+    margin-left: 8rem;
+    position: relative;
+}
+
+.city-name-13 {
+    background-color: white;
+    position: absolute;
+    top: 16.5rem;
+    margin-left: 10px;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.city-img-14 {
+    background-image: url(https://images.deliveryhero.io/image/fd-pk/city-tile/city-tile-Larkana.jpg?width=720);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20rem;
+    border-radius: 15px;
+    margin-left: 1.5rem;
+
+    position: relative;
+}
+
+.city-name-14 {
+    background-color: white;
+    position: absolute;
+    top: 16.5rem;
+    margin-left: 10px;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.city-img-15 {
+    background-image: url(https://images.deliveryhero.io/image/fd-pk/city-tile/city-tile-Mangla.jpg?width=720);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20rem;
+    border-radius: 15px;
+    margin-left: 1.5rem;
+
+    position: relative;
+}
+
+.city-name-15 {
+    background-color: white;
+    position: absolute;
+    top: 16.5rem;
+    margin-left: 10px;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.city-img-16 {
+    background-image: url(https://images.deliveryhero.io/image/fd-pk/city-tile/city-tile-Mardan.jpg?width=720);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20rem;
+    border-radius: 15px;
+    margin-left: 8rem;
+    position: relative;
+}
+
+.city-name-16 {
+    background-color: white;
+    position: absolute;
+    top: 16.5rem;
+    margin-left: 10px;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.city-img-17 {
+    background-image: url(https://images.deliveryhero.io/image/foodpanda/city-tile-pk/Multan.jpg?width=720);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20rem;
+    border-radius: 15px;
+    margin-left: 1.5rem;
+
+    position: relative;
+}
+
+.city-name-17 {
+    background-color: white;
+    position: absolute;
+    top: 16.5rem;
+    margin-left: 10px;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.city-img-18 {
+    background-image: url(https://images.deliveryhero.io/image/fd-pk/city-tile/city-tile-Murree.jpg?width=720);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20rem;
+    border-radius: 15px;
+    margin-left: 1.5rem;
+
+    position: relative;
+}
+
+.city-name-18 {
+    background-color: white;
+    position: absolute;
+    top: 16.5rem;
+    margin-left: 10px;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.city-img-19 {
+    background-image: url(https://images.deliveryhero.io/image/fd-pk/city-tile/city-tile-Okara.jpg?width=720);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20rem;
+    border-radius: 15px;
+    margin-left: 8rem;
+    position: relative;
+}
+
+.city-name-19 {
+    background-color: white;
+    position: absolute;
+    top: 16.5rem;
+    margin-left: 10px;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.city-img-20 {
+    background-image: url(https://images.deliveryhero.io/image/fd-pk/city-tile/city-tile-PanoAqil.jpg?width=720);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20rem;
+    border-radius: 15px;
+    margin-left: 1.5rem;
+
+    position: relative;
+}
+
+.city-name-20 {
+    background-color: white;
+    position: absolute;
+    top: 16.5rem;
+    margin-left: 10px;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.city-img-21 {
+    background-image: url(https://images.deliveryhero.io/image/foodpanda/city-tile-pk/Peshawar.jpg?width=720);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20rem;
+    border-radius: 15px;
+    margin-left: 1.5rem;
+
+    position: relative;
+}
+
+.city-name-21 {
+    background-color: white;
+    position: absolute;
+    top: 16.5rem;
+    margin-left: 10px;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.city-img-22 {
+    background-image: url(https://images.deliveryhero.io/image/fd-pk/city-tile/city-tile-Quetta.jpg?width=720);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20rem;
+    border-radius: 15px;
+    margin-left: 8rem;
+    position: relative;
+}
+
+.city-name-22 {
+    background-color: white;
+    position: absolute;
+    top: 16.5rem;
+    margin-left: 10px;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.city-img-23 {
+    background-image: url(https://images.deliveryhero.io/image/fd-pk/city-tile/city-tile-RahimYarKhan.jpg?width=720);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20rem;
+    border-radius: 15px;
+    margin-left: 1.5rem;
+
+    position: relative;
+}
+
+.city-name-23 {
+    background-color: white;
+    position: absolute;
+    top: 16.5rem;
+    margin-left: 10px;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.city-img-24 {
+    background-image: url(https://images.deliveryhero.io/image/fd-pk/city-tile/city-tile-Sadiqabad.jpg?width=720);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20rem;
+    border-radius: 15px;
+    margin-left: 1.5rem;
+    position: relative;
+}
+
+.city-name-24 {
+    background-color: white;
+    position: absolute;
+    top: 16.5rem;
+    margin-left: 10px;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.city-img-25 {
+    background-image: url(https://images.deliveryhero.io/image/fd-pk/city-tile/city-tile-Sahiwal.jpg?width=720);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20rem;
+    border-radius: 15px;
+    margin-left: 8rem;
+    position: relative;
+}
+
+.city-name-25 {
+    background-color: white;
+    position: absolute;
+    top: 16.5rem;
+    margin-left: 10px;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.city-img-26 {
+    background-image: url(https://images.deliveryhero.io/image/fd-pk/city-tile/city-tile-Sargodha.jpg?width=720);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20rem;
+    border-radius: 15px;
+    margin-left: 1.5rem;
+
+    position: relative;
+}
+
+.city-name-26 {
+    background-color: white;
+    position: absolute;
+    top: 16.5rem;
+    margin-left: 10px;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.city-img-27 {
+    background-image: url(https://images.deliveryhero.io/image/fd-pk/city-tile/city-tile-Sheikhupura.jpg.jpg?width=720);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20rem;
+    border-radius: 15px;
+    margin-left: 1.5rem;
+    position: relative;
+}
+
+.city-name-27 {
+    background-color: white;
+    position: absolute;
+    top: 16.5rem;
+    margin-left: 10px;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.city-img-28 {
+    background-image: url(https://images.deliveryhero.io/image/foodpanda/city-tile-pk/Sialkot.jpg?width=720);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20rem;
+    border-radius: 15px;
+    margin-left: 8rem;
+    position: relative;
+}
+
+.city-name-28 {
+    background-color: white;
+    position: absolute;
+    top: 16.5rem;
+    margin-left: 10px;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.city-img-29 {
+    background-image: url(https://images.deliveryhero.io/image/foodpanda/city-tile-pk/Sukkur.jpg?width=720);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20rem;
+    border-radius: 15px;
+    margin-left: 1.5rem;
+
+    position: relative;
+}
+
+.city-name-29 {
+    background-color: white;
+    position: absolute;
+    top: 16.5rem;
+    margin-left: 10px;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.city-img-30 {
+    background-image: url(https://images.deliveryhero.io/image/fd-pk/city-tile/city-tile-WahhCannt.jpg?width=720);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20rem;
+    border-radius: 15px;
+    margin-left: 1.5rem;
+    position: relative;
+}
+
+.city-name-30 {
+    background-color: white;
+    position: absolute;
+    top: 16.5rem;
+    margin-left: 10px;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* Section 6 */
+.sec-6 {
+    background-color: #e21b70;
+    height: 21rem;
+    width: 100%;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 20px;
+   
+}
+
+.sec-6 h4 {
+    color: white;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    font-size: x-large;
+
+}
+
+.sec-6-img {
+    margin-top:-1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-6-img img {
+    border: 1px solid rgb(254, 254, 254);
+    width: 88px;
+    height: 88px;
+    padding: 5px;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    border-radius: 5px;
+}
+
+.sec-6-p {
+    width: 344px;
+    color: white;
+    margin-top: 3rem;
+    margin-left: 2rem;
+
+}
+.parent-img img{
+margin-left: 3.5rem;
+}
+.mobile-pic img{
+    width: 100%;
+    height: auto;
+    position: relative;
+  bottom: 5rem;
+}
+
+.sec-8 {
+    background-image: url('	https://images.deliveryhero.io/image/foodpanda/home-corporate-pk.jpg?width=1200&height=768');
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-position: 50%;
+    height: 350px;
+    object-fit: cover;  
+    position: relative; 
+}
+
+.sec-p-row-2 {
+    position: absolute;
+    top: 363rem;
+    width: 80%;
+}
+
+.sec-p-2 {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: white;
+    box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+    height: 12.5rem;
+    line-height: 32px;
+    margin-left: 5rem;
+
+}
+
+.sec-p-2 h4 {
+    margin-top: 15px;
+}
+
+
+.sec-p-2 button {
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: #e21b70;
+    color: white;
+    border: 1px solid #e21b70;
+    font-weight: bold;
+
+}
+
+/*  section 9 answer and question  */
+
+.ans h1{
+margin-top: 10rem;
+}
+.ans-p p, .ans-p2{
+    margin-top: 10px;
+    color: #333333;
+    font-family: "open sans" , arial ,sans-serif;
+}
+.ans-p2{
+    margin-top: 20px;
+}
+.ul-li li{
+    list-style: none;
+    margin-left: -25px;
+    color: #333333;
+    font-family: "open sans" , arial ,sans-serif;
+
+}
+.ul-li li span{
+    color: #e21b70;
+}
+.bold{
+    font-weight: 700;
+    margin-top: 15px;
+}
+.contry-name a{
+   color: black;
+   font:  "open sans" , arial ,sans-serif;
+   font-size: large;
+   margin-left: 10px;
+   font-weight: 500;
+}
+.contry-name span{
+    margin-left: 10px;
+}
+
+/* Footer */
+
+.foo-row{
+    margin-top: 2rem;
+   
+}
+
+.foo-1 p{
+    margin-left: 10px;
+    height: 25rem;
+    margin-top: 10px;
+    color: #707070; 
+    margin-left: 2rem; 
+}
+
+.foo-2{
+
+    display: flex;  
+}
+.div-1{
+margin-left: 2rem;
+}
+.div-2{
+margin-left: -4rem;
+
+}
+.foo-2 div a{
+/* text-decoration: none; */
+color: #333333;
+font-size:larger;
+font-weight: 600;
+}
+.li-1 li{
+list-style: none;
+line-height: 2rem;
+}
+
+.last{
+    text-decoration: none;
+    color: #e21b70;
+    font-weight: bold;
+    font-size: larger;
+}
+.last-col span {
+    margin-left: 1rem;
+    font-size: xx-large;
+    font-weight: 100;
+    
+}
+.last-col{
+    margin-bottom:1rem ;
+}
+.last-img{
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+}
+.last-icon{
+    margin-left: 48rem;
+    color: #333333;
+    font-size: xx-large;
+}
+.last-icon-1{
+    margin-left: 1rem;
+    color: #333333;
+    font-size: xx-large;
+}
+h6{
+    background-color: #e21b70;
+     padding: 10px;
+     max-width: 20%;
+     border-radius: 15px;
+    align-items: center;
+}
+.clone{
+    display: flex;
+    justify-content: center;
+}
+.clone h6{
+    color: white;
+}
